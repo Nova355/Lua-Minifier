@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Lua_Minifier</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>Lua-Icon.ico</ApplicationIcon>
+    <Copyright>Nova</Copyright>
+    <PackageIcon>Lua-Icon.ico</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Lua-Icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\Lua-Icon.ico">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="WebDriver">
+      <HintPath>G:\Programming\C#\Windows Forms\Projects\Selenium Test\Selenium Test\bin\Debug\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriverManager">
+      <HintPath>G:\Programming\C#\Windows Forms\Projects\Selenium Test\Selenium Test\bin\Debug\WebDriverManager.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
